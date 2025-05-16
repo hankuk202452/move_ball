@@ -28,7 +28,7 @@ def main(stdscr):
         elif key == curses.KEY_LEFT and x > 0:
             x -= 1
         elif key == curses.KEY_RIGHT and x < width - 1:
-            x += 1    
+            x += 1
         elif key == ord('q'):
             break
 
